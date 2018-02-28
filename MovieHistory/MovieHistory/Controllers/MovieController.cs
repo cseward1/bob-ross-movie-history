@@ -41,6 +41,11 @@ namespace MovieHistory.Controllers
             return View(model);
         }
 
+        //new function that brings the Favorite Movie Page:
+
+
+
+
         public async Task<IActionResult> Track(string apiId, string title, string img)
         {
             //gets the current user
